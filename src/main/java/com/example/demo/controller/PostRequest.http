@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/produto/cadastrar
+Content-Type: application/json
+
+{
+  "nome": "Fraldinha",
+  "descricao": "Carne adequada para churrasco",
+  "preco": 39.8,
+  "qtEstoque": 2
+}
